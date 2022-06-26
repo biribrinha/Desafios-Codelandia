@@ -7,5 +7,6 @@ Desafios criados pelo Iuri Silva, criador do discord "Codelândia". Os desafios 
 HTML
 CSS
 
-![Alt Text](hhttps://media.giphy.com/media/xUPGcwdPRH2Lg6A2Ry/giphy.gif)
+
+![Alt Text](https://media.giphy.com/media/xUPGcwdPRH2Lg6A2Ry/giphy.gif)
 

@@ -4,8 +4,8 @@ Desafios criados pelo Iuri Silva, criador do discord "Codelândia". Os desafios 
 
 ### Linguagens utilizadas nos desafios:
 
-HTML
-CSS
+💡 HTML
+💡 CSS
 
 
 ![Alt Text](https://media.giphy.com/media/xUPGcwdPRH2Lg6A2Ry/giphy.gif)

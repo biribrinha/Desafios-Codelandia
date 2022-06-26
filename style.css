@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Deca";
+}
+
+header {
+    background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+    height: 250px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    margin: 5vh;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+
+.barraPesquisa {
+    text-align: center;
+}
+
+.barraPesquisa input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100vh;
+    height: 65px;
+    color: white;
+    padding: 6px 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+main {
+    background: #f3f5f7;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 4vh;
+    height: auto;
+    width: 100vh;
+}
+
+.containers p {
+    margin: 1vh;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #717171;
+    ;
+}
+
+.containers h3 {
+    margin: 1vh;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.iconeData {
+    margin: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeData img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        background: linear-gradient(88.27deg, #1fba43 0%, #3ea1db 100%);
+        height: 25vh;
+    }
+    .menu ul {
+        justify-content: space-between;
+    }
+    .barraPesquisa input {
+        width: 90%;
+    }
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin: 4vh;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        background: linear-gradient(88.27deg, #e84ace 0%, #3ea1db 100%);
+        height: 25vh;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+    }
+    .barraPesquisa input {
+        width: 90%;
+        height: 5vh;
+    }
+    .container1,
+    .container2,
+    .container3,
+    .container4 {
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin: 4vh;
+        width: auto;
+    }
+}

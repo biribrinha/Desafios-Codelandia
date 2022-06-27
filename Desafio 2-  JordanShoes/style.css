@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+
+}
+
+.cabecalhoPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.bannerContent {
+    background-image: url("./img/banner.svg");
+    height: 378px;
+    color: white;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cotentMain {
+    margin: 5vh;
+}
+
+.tituloTextoMain {
+    text-align: center;
+    margin: 50px;
+}
+
+.tituloTextoMain h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin: 15px;
+}
+
+.tituloTextoMain p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+.container1, .container2 {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+
+}
+
+.imagem {
+    background: #EBE9EA;
+    margin: 5px;
+    width: 400px;
+    height: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 300px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+
+    .containersImg {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .container1, .container2 {
+        display: block;
+        margin: 0px;
+    }
+
+    .imagem {
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .containersImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1, .container2 {
+        display: block;
+        margin: 0px;
+    }
+
+    .imagem {
+        margin: 10px;
+    }
+}

@@ -7,7 +7,7 @@
 
 header {
     background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
-    height: 250px;
+    height: 225px;
 }
 
 .headerContainer {
@@ -64,13 +64,13 @@ main {
 .container4 {
     background-color: #ffffff;
     border-radius: 5px;
-    margin: 4vh;
+    margin: 20px;
     height: auto;
     width: 50vw;
 }
 
 .containers p {
-    margin: 1vh;
+    margin: 10px;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -79,14 +79,14 @@ main {
 }
 
 .containers h3 {
-    margin: 1vh;
+    margin: 10px;
     font-weight: 400;
     font-size: 26px;
     line-height: 32px;
 }
 
 .iconeData {
-    margin: 1vh;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
 }

@@ -27,7 +27,6 @@
     background-image: url("./img/banner.svg");
     height: 378px;
     color: white;
-
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,8 +34,26 @@
 
 }
 
+.bannerContent h1 {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.bannerContent p {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.bannerContent p, .bannerContent h1 {
+    margin-left: 50px;
+}
+
 .cotentMain {
-    margin: 5vh;
+    margin: 5px;
 }
 
 .tituloTextoMain {
@@ -47,7 +64,7 @@
 .tituloTextoMain h2 {
     font-weight: 600;
     font-size: 32px;
-    margin: 15px;
+    margin: 25px;
 }
 
 .tituloTextoMain p {
@@ -55,19 +72,21 @@
     font-size: 18px;
 }
 
-
+.containersImg {
+    margin: 70px;
+}
 
 .container1, .container2 {
     display: flex;
     justify-content: center;
-    margin: 5vh;
+    margin: 5px;
 
 }
 
 .imagem {
     background: #EBE9EA;
     margin: 5px;
-    width: 400px;
+    width: 80vw;
     height: 302px;
     display: flex;
     align-items: center;

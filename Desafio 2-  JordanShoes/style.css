@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +12,6 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-
 }
 
 .cabecalhoPrincipal {
@@ -26,12 +24,12 @@
 .bannerContent {
     background-image: url("./img/banner.svg");
     height: 378px;
+    background-size: cover;
     color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .bannerContent h1 {
@@ -42,13 +40,13 @@
 }
 
 .bannerContent p {
-
     font-weight: 600;
     font-size: 18px;
     line-height: 196.19%;
 }
 
-.bannerContent p, .bannerContent h1 {
+.bannerContent p,
+.bannerContent h1 {
     margin-left: 50px;
 }
 
@@ -76,11 +74,11 @@
     margin: 70px;
 }
 
-.container1, .container2 {
+.container1,
+.container2 {
     display: flex;
     justify-content: center;
     margin: 5px;
-
 }
 
 .imagem {
@@ -106,41 +104,33 @@ footer {
     justify-content: center;
 }
 
-
-
 @media screen and (max-width: 1030px) {
-
     .containersImg {
         display: flex;
         flex-direction: column;
-
         align-items: center;
     }
-
-    .container1, .container2 {
+    .container1,
+    .container2 {
         display: block;
         margin: 0px;
     }
-
     .imagem {
         margin: 10px;
     }
-
 }
 
 @media only screen and (max-width: 600px) {
-
     .containersImg {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .container1, .container2 {
+    .container1,
+    .container2 {
         display: block;
         margin: 0px;
     }
-
     .imagem {
         margin: 10px;
     }

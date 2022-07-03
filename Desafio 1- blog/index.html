@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog- Codelandia desafio 1</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 
 <body>
     <header>
@@ -31,46 +31,52 @@
 
     <main>
         <div class="containers">
-            <div class="container1">
+            <div class="container">
                 <div class="iconeData">
-                    <p>02 de jul, 2021</p>
+                    <p class="date">02 de jul, 2021</p>
                 </div>
-                <h3>Agora é oficial: o Windows 11 está vindo</h3>
-                <p>
+                <h2 class="title">Agora é oficial: o Windows 11 está vindo</h2>
+                <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.
                 </p>
             </div>
-            <div class="container2">
+            <div class="container">
                 <div class="iconeData">
-                    <p>02 de jul, 2021</p>
+                    <p class="date">02 de jul, 2021</p>
                 </div>
-                <h3>Tim Berners-Lee vai leiloar código-fonte da web</h3>
-                <p>
+                <h2 class="title">Tim Berners-Lee vai leiloar código-fonte da web</h2>
+                <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo
                     sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.
                 </p>
             </div>
-            <div class="container3">
+            <div class="container">
                 <div class="iconeData">
-                    <p>02 de jul, 2021</p>
+                    <p class="date">02 de jul, 2021</p>
                 </div>
-                <h3>Tem Firefox novo no pedaço e você vai querer migrar</h3>
-                <p>
+                <h2 class="title">Tem Firefox novo no pedaço e você vai querer migrar</h2>
+                <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.
                 </p>
             </div>
-            <div class="container4">
+            <div class="container">
                 <div class="iconeData">
-                    <p>02 de jul, 2021</p>
+                    <p class="date">02 de jul, 2021</p>
                 </div>
-                <h3>John McAfee, criador do antivírus McAfee, morre</h3>
-                <p>
+                <h2 class="title">John McAfee, criador do antivírus McAfee, morre</h2>
+                <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo
                     sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.
                 </p>
             </div>
         </div>
     </main>
+
+    <script>
+        ScrollReveal().reveal('.container', {
+            interval: 300
+        });
+    </script>
 </body>
 
 </html>

@@ -5,6 +5,10 @@
     font-family: "Lexend Deca";
 }
 
+html.sr .container {
+    visibility: hidden;
+}
+
 header {
     background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
     height: 225px;
@@ -16,7 +20,7 @@ header {
 }
 
 .menu {
-    margin:50px;
+    margin: 50px;
 }
 
 .menu ul {
@@ -58,10 +62,7 @@ main {
     align-items: center;
 }
 
-.container1,
-.container2,
-.container3,
-.container4 {
+.container {
     background-color: #ffffff;
     border-radius: 5px;
     margin: 20px;
@@ -78,7 +79,7 @@ main {
     ;
 }
 
-.containers h3 {
+.containers h2 {
     margin: 10px;
     font-weight: 400;
     font-size: 26px;
@@ -99,12 +100,10 @@ main {
     header {
         background: linear-gradient(88.27deg, #1fba43 0%, #3ea1db 100%);
     }
-
 }
 
 @media only screen and (max-width: 600px) {
     header {
         background: linear-gradient(88.27deg, #e84ace 0%, #3ea1db 100%);
     }
-  
 }

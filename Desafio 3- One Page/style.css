@@ -53,6 +53,11 @@ header {
     cursor: pointer;
     height: 419.71px;
     margin: 100px 30px;
+    text-align: center;
+}
+
+.card h3, .card p{
+    padding: 2vh;
 }
 
 .card:hover {
@@ -87,10 +92,10 @@ footer {
 
 .formularioCampo input {
     width: 50vw;
-    height: 65px;
     background: #FFFFFF;
     border-radius: 6px;
     border: none;
+    padding: 3vh;
 }
 
 .mensagem input {
@@ -102,9 +107,9 @@ footer {
     color: white;
     border: none;
     box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
-    border-radius: 5px;
-    width: 50vw;
-    height: 50px;
+    border-radius: 6px;
+    width: 53vw;
+    padding: 3vh;
     cursor: pointer;
 }
 

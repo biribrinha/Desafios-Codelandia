@@ -27,16 +27,33 @@
     width: 50%;
 }
 
+.container2 a {
+    color: #2B6CB0;
+    text-decoration: none;
+}
+
+.container2 a:hover {
+    color: #04C45C;
+}
+
 .titulo {
     font-family: 'Merriweather';
+    font-size: 15px;
+    align-items: center;
+
 }
 
 .formulario {
     font-family: 'Lato';
 }
 
+.input {
+    padding-bottom: 1vw;
+}
+
 .input label {
     display: flex;
+
 }
 
 .input input {
@@ -47,8 +64,14 @@
     height: 49px;
 }
 
+input::placeholder {
+    color: #000;
+    padding: 2vh;
+}
+
 .checkbox {
     display: flex;
+    justify-content: space-between;
 }
 
 .btn {
@@ -61,17 +84,40 @@
     cursor: pointer;
     border-radius: 5px;
     border: none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btnverde,
+.btnpreto {
+    margin: 2vh;
 }
 
 .btnverde button {
     background: #04C45C;
 }
 
+.btnverde button:hover {
+    background: #2B6CB0;
+}
+
 .btnpreto button {
     background: #1A202C;
-    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
+
+.btnpreto button:hover {
+    background: #fff;
+    color: black;
+    border: 1px solid #04C45C;
+}
+
 
 .rodape {
     font-family: 'Lato';
+    display: flex;
 }

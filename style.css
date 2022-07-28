@@ -160,6 +160,13 @@ header h1{
         margin: 35px;
     }
 
+    .linguagens {
+        text-align: center;
+        background-color: #000;
+        height: auto;
+    }
+    
+
     .texto {
         width: 100%;
     }

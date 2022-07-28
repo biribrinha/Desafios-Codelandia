@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+.voltar1 button {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+}
+
+.voltar1 button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.voltar2 button {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+}
+
+.voltar2 button:hover {
+    background: rgb(184, 184, 184);
+}
+
+.voltar3 button {
+    background: #000;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+}
+
+.voltar3 button:hover {
+    background: rgba(108, 99, 255, 1);
+}
+
+.voltar4 button {
+    background: #000;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+}
+
+.voltar4 button:hover {
+    background: #04C45C;
+}

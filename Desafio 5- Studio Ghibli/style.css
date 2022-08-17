@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    height: 10vh;
+    height: 13vw;
 }
 
 header,
@@ -64,7 +64,7 @@ header,
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(17% 0%, 100% 0%, 83% 100%, 0% 100%);
 }
 
 .botoes button:hover{

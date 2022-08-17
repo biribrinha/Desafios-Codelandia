@@ -49,6 +49,10 @@ header,
     line-height: 180%;
 }
 
+.botoes{
+    padding-top: 40px;
+}
+
 .botoes button {
     background-color: #658E76;
     color: #F9F9F9;
@@ -60,9 +64,87 @@ header,
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+
+.botoes button:hover{
+    background-color: #466553;
+}
+
+
 
 .container-grid {
     width: 1200px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1400px){
+
+    .containers {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .containers img{
+        width: 350px;
+    }
+    
+    .container1 span {
+        font-size: 25px;
+    }
+    
+    .container1 h1 {
+        font-size: 85px;
+    }
+    
+    .container1 p {
+        font-size: 18px;
+    }
+
+
+
+    .container-grid {
+        width: 900px;
+    }
+
+    .botoes{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .containers {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .containers img{
+        width: 350px;
+    }
+    
+    .container1 span {
+        font-size: 20px;
+    }
+    
+    .container1 h1 {
+        font-size: 60px;
+    }
+    
+    .container1 p {
+        font-size: 18px;
+    }
+
+    .botoes{
+        display: flex;
+        padding-top: 60px;
+    }
+    
+    .botoes button {
+        margin: 4px;
+    }
+    
+    .container-grid {
+        width: 450px;
+    }
 }

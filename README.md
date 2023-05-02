@@ -9,7 +9,7 @@ Desafios criados pelo Iuri Silva, criador do discord "Codelândia". Os desafios 
 
 ### Link do projeto hospedado 
 
-https://juliabergman.github.io/Desafios-Codelandia/
+https://biribrinha.github.io/Desafios-Codelandia/
 
 ### Link dos desafios no Figma:
 https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=0%3A1
